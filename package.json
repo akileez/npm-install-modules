@@ -1,10 +1,9 @@
 {
   "name": "npm-install-modules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "install npm modules (dependencies and devDependencies) programmactically via child_process.exec",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "engines": {
     "node": ">=0.10.0"
   },
@@ -22,14 +21,24 @@
     "url": "https://github.com/akileez/npm-install-modules/issues"
   },
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "child",
+    "process",
+    "exec",
+    "install",
+    "dependencies",
+    "devDependencies",
+    "modules"
+  ],
   "dependencies": {
+    "colorz": "^0.1.4"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "files": [
     "LICENSE",
     "index.js",
-    "README.md"
+    "README.md",
+    "lib"
   ]
 }
