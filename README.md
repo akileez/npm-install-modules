@@ -7,7 +7,7 @@
 > Install npm modules (dependencies and devDependencies) programmatically. 
 
 Still quite raw as an individual module. Needs more testing in the wild (production use)
-to flesh out use-case development.
+to flesh out use-case development. Comments/PR's welcomed.
 
 ## Installation
 ```bash
