@@ -1,6 +1,6 @@
 {
   "name": "npm-install-modules",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "install npm modules (dependencies and devDependencies) programmactically via child_process.exec",
   "main": "index.js",
   "scripts": {},
