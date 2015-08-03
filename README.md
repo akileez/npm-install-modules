@@ -4,23 +4,47 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Downloads][downloads-image]][downloads-url]
 
+> Install npm modules (dependencies and devDependencies) programmatically. 
+
+Still quite raw as an individual module. Needs more/better options for flexibility.
+
 ## Installation
 ```bash
-$ npm install akileez\npm-install-modules
+$ npm install npm-install-modules
 ```
 
 ## Usage
 ```js
+var installModules = require('npm-install-modules')
 
+var opts {
+  dependencies: ["mout", "clockin", "colorz"],
+  devDependencies: ["tape", "mocha"]
+}
+
+installModules(opts, function () {
+  // do something here
+})
 ```
 
-## API
-```js
+results in package.json...
 
+```json
+ "dependencies": {
+    "clockin": "^0.1.1",
+    "colorz": "^0.1.4",
+    "mout": "^0.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "tape": "^4.0.1"
+  },
 ```
+
 
 ## Why?
-
+Building a scaffolder. Extracted this module from [npinit](https://npmjs.org/package/npinit). Figured
+it would be useful as a stand-alone. 
 
 ## See Also
 -
