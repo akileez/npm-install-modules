@@ -48,7 +48,7 @@ Building a scaffolder. Extracted this module from [npinit](https://npmjs.org/pac
 it would be useful as a stand-alone. 
 
 ## See Also
--
+- [spawn-npm-install](https://github.com/mattdesl/spawn-npm-install). Had I known about this, I would not have published this module.
 
 ## License
 [ISC](https://github.com/akileez/npm-install-modules/blob/master/LICENSE)
